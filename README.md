@@ -7,20 +7,20 @@ Linting configuration for ESLint.
 These are the ESLint rules that I use. They're inspired by coding styles that I
 observe as being common, such as always using braces and requiring semicolons.
 
-They're also lenient on a few issues, such as:
+The rules are less opinionated on a few issues. For instance,
 
-- never using `var`
-- preferring `const` for unmodified variables
-- trailing commas
-- having an opinion on parentheses for arrow functions with a single argument
+- you can still use `var` (rather than `let` or `const`)
+- it won't explode if you use `const` on unmodified variables
+- trailing commas can be there, or they can be omitted.
+- arrow functions with a single argument can have parentheses or not
 
-On other issues, the rules are more strict. For instance, "fixme" and "todo"
+On other issues, things are more strict. For instance, "fixme" and "todo"
 comments will cause the linting to fail. Clean-up tasks belong in an issue
 tracker, I think.
 
 If you're looking for linting rules that try to strike a middle ground between
-being opinionated without being too overbearing, then you might want to try
-these out.
+being opinionated without being too overbearing, then these might be a good
+starting off point.
 
 ### Usage
 
