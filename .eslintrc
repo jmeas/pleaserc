@@ -1,0 +1,164 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    // It's nbd if commas are dangling or not
+    "comma-dangle": "off",
+    // if (x = 2) is usually an error
+    "no-cond-assign": "error",
+    "no-console": "off",
+    // if (false) is usually an error
+    "no-constant-condition": "error",
+    "no-control-regex": "error",
+    "no-debugger": "off",
+    "no-dupe-args": "error",
+    "no-dupe-keys": "error",
+    // Prevents duplicates in switch statements
+    "no-duplicate-case": "error",
+    // Leave a comment if an error block is intentionally empty
+    "no-empty": "error",
+    "no-empty-character-class": "error",
+    "no-ex-assign": "error",
+    "no-extra-boolean-cast": "error",
+    "no-extra-parens": ["error", "functions"],
+    "no-extra-semi": "error",
+    "no-func-assign": "error",
+    "no-inner-declarations": "error",
+    "no-invalid-regexp": "error",
+    "no-irregular-whitespace": "error",
+    "no-negated-in-lhs": "error",
+    "no-obj-calls": "error",
+    "no-regex-spaces": "error",
+    "no-sparse-arrays": "error",
+    "no-unexpected-multiline": "error",
+    "no-unreachable": "error",
+    "use-isnan": "error",
+    "valid-jsdoc": "error",
+    "valid-typeof": "error",
+
+    "accessor-pairs": "error",
+    "array-callback-return": "error",
+    "block-scoped-var": "error",
+    "complexity": ["warn", 7],
+    "consistent-return": "off",
+    "curly": "error",
+    "default-case": "off",
+    "dot-location": ["error", "property"],
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    // This is rarely (never?) something you need to do
+    "guard-for-in": "off",
+    "no-alert": "error",
+    "no-caller": "error",
+    "no-case-declarations": "error",
+    "no-div-regex": "error",
+    // I just don't feel too strongly about this
+    "no-else-return": "off",
+    "no-empty-function": "error",
+    "no-empty-pattern": "error",
+    "no-eq-null": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-extra-label": "error",
+    // Be explicit with a `"falls through"` comment
+    "no-fallthrough": "off",
+    "no-floating-decimal": "error",
+    "no-implicit-coercion": "error",
+    "no-implicit-globals": "error",
+    "no-implied-eval": "error",
+    "no-invalid-this": "error",
+    "no-iterator": "error",
+    "no-labels": "error",
+    "no-lone-blocks": "error",
+    "no-loop-func": "error",
+    // Not enforced, but do leave comments if necessary
+    "no-magic-numbers": "off",
+    "no-multi-spaces": "error",
+    "no-multi-str": "error",
+    "no-native-reassign": "error",
+    "no-new": "error",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-octal": "error",
+    "no-octal-escape": "error",
+    // More useful in library code than application code
+    "no-param-reassign": "off",
+    "no-proto": "error",
+    "no-redeclare": "error",
+    "no-return-assign": "error",
+    "no-script-url": "error",
+    "no-self-assign": "error",
+    "no-self-compare": "error",
+    "no-sequences": "error",
+    "no-throw-literal": "error",
+    "no-unmodified-loop-condition": "error",
+    "no-unused-expressions": "error",
+    "no-unused-labels": "error",
+    "no-useless-call": "error",
+    "no-useless-concat": "error",
+    "no-useless-escape": "error",
+    "no-void": "error",
+    // Todo's in code are easy to forget about – use an issue tracker!
+    "no-warning-comments": "error",
+    "no-with": "error",
+    // Modern browsers don't require this
+    "radix": "off",
+    // Define variables near to where they're used. Or just use `let`
+    "vars-on-top": "off",
+    "wrap-iife": ["error", "any"],
+    // Few developers use Yoda conditionals in my experience
+    "yoda": "error",
+
+    // I don't think any developer cares about this
+    "init-declarations": "off",
+    "no-catch-shadow": "error",
+    "no-delete-var": "error",
+    // I don't use labels, so this doesn't really affect me
+    "no-label-var": "off",
+    "no-restricted-globals": "off",
+    // Just don't go overboard
+    "no-shadow": "off",
+    "no-shadow-restricted-names": "error",
+    "no-undef": "error",
+    "no-undef-init": "error",
+    "no-undefined": "off",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used" }],
+    "no-use-before-define": "error",
+
+    // Sometimes it's convenient to not use braces
+    "arrow-body-style": "off",
+    // I should probably be more opinionated about this, but I'm not
+    "arrow-parens": "off",
+    "arrow-spacing": "error",
+    "constructor-super": "error",
+    "generator-star-spacing": "error",
+    "no-class-assign": "error",
+    "no-confusing-arrow": "error",
+    "no-const-assign": "error",
+    "no-dupe-class-members": "error",
+    "no-duplicate-imports": "error",
+    "no-new-symbol": "error",
+    "no-restricted-imports": "off",
+    "no-this-before-super": "error",
+    "no-useless-constructor": "error",
+    // `let` and `const` generally do what you want, but it's nbd
+    "no-var": "off",
+    "object-shorthand": "error",
+    "prefer-arrow-callback": "error",
+    // Shrug. Use `const` if you remember, but forgetting won't break the build
+    "prefer-const": "off",
+    "prefer-reflect": "off",
+    "prefer-rest-params": "off",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "require-yield": "error",
+    "template-curly-spacing": ["error", "never"],
+    "yield-star-spacing": "error",
+
+    "strict": ["error", "never"]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

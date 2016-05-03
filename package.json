@@ -1,0 +1,26 @@
+{
+  "name": "pleaserc",
+  "version": "1.0.0",
+  "description": "Linting configuration for ESLint",
+  "main": ".eslintrc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeas/pleaserc.git"
+  },
+  "keywords": [
+    "linting",
+    "eslint",
+    "jscs",
+    "style",
+    "config"
+  ],
+  "author": "Jmeas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmeas/pleaserc/issues"
+  },
+  "homepage": "https://github.com/jmeas/pleaserc#readme"
+}
