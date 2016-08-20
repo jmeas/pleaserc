@@ -1,3 +1,7 @@
+# 2.1.0
+
+- Update to support ESLint 3.3.0
+
 # 2.0.0
 
 - Adds style rules
