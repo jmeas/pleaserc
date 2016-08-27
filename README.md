@@ -1,11 +1,14 @@
 # pleaserc
 
-Linting configuration for ESLint.
+Linting configuration for ESLint and Stylelint.
 
 ### About
 
-These are the ESLint rules that I use. They're inspired by coding styles that I
-observe as being common, such as always using braces and requiring semicolons.
+These are the linting rules that I use. They're inspired by coding styles that I
+observe as being common, such as always using braces and requiring semicolons
+in JavaScript.
+
+#### The JavaScript rules
 
 The rules are less opinionated on a few issues. For instance,
 
@@ -30,7 +33,7 @@ Install via npm.
 npm install pleaserc
 ```
 
-Then, in your ESLint file,
+Then, in your linting config file,
 
 ```
 {
