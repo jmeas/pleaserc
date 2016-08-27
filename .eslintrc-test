@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "strict": 0,
+    "no-unused-expressions": 0,
+    "max-nested-callbacks": "off",
+    "no-invalid-this": "off",
+    "import/default": "off",
+    "prefer-arrow-callback": "off",
+    "max-len": "off",
+    "no-empty-function": "off",
+    "import/named": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  }
+}
