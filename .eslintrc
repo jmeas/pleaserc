@@ -1,5 +1,4 @@
 {
-  "parser": "babel-eslint",
   "rules": {
     // It's nbd if commas are dangling or not
     "comma-dangle": "off",
