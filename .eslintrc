@@ -40,6 +40,7 @@
     "accessor-pairs": "error",
     "array-callback-return": "error",
     "block-scoped-var": "error",
+    "class-methods-use-this": "off",
     "complexity": "off",
     "consistent-return": "off",
     "curly": "error",
@@ -155,6 +156,8 @@
     "prefer-template": "error",
     "require-yield": "error",
     "template-curly-spacing": ["error", "never"],
+    "sort-imports": "off",
+    "symbol-description": "error",
     "yield-star-spacing": "error",
 
     "strict": ["error", "never"],

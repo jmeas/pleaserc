@@ -1,6 +1,6 @@
 {
   "name": "pleaserc",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Linting configuration for ESLint",
   "main": ".eslintrc",
   "scripts": {
@@ -21,6 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jmeas/pleaserc/issues"
+  },
+  "peerDependencies": {
+    "eslint": "3.4.0"
   },
   "homepage": "https://github.com/jmeas/pleaserc#readme"
 }
