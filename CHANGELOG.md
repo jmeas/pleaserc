@@ -1,3 +1,8 @@
+# 2.3.0 (8/26/2016)
+
+- Adds eslint config files for the server and test environments
+- Adds stylelint rules
+
 # 2.2.0
 
 - Update to support ESLint 3.4.0
