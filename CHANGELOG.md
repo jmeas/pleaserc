@@ -3,7 +3,7 @@
 - Adds eslint config files for the server and test environments
 - Adds stylelint rules
 
-# 2.2.0
+# 2.2.0 (8/26/2016)
 
 - Update to support ESLint 3.4.0
 - Set ESLint as a peerDependency
