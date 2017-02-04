@@ -100,7 +100,7 @@
     "no-useless-concat": "error",
     "no-useless-escape": "error",
     "no-void": "error",
-    // Todo's in code are easy to forget about – use an issue tracker!
+    // Todo's in code are easy to forget about – use an issue tracker!
     "no-warning-comments": "error",
     "no-with": "error",
     // Modern browsers don't require this
