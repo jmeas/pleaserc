@@ -1,3 +1,7 @@
+# 2.3.1 (2/3/2017)
+
+- Fix a non-standard space that was breaking in the latest ESLint version
+
 # 2.3.0 (8/26/2016)
 
 - Adds eslint config files for the server and test environments

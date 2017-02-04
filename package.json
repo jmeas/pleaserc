@@ -1,6 +1,6 @@
 {
   "name": "pleaserc",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Linting configuration for ESLint",
   "main": ".eslintrc",
   "scripts": {
