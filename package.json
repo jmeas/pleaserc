@@ -23,7 +23,7 @@
     "url": "https://github.com/jmeas/pleaserc/issues"
   },
   "peerDependencies": {
-    "eslint": "3.4.0"
+    "eslint": "^3.4.0"
   },
   "homepage": "https://github.com/jmeas/pleaserc#readme"
 }
