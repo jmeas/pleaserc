@@ -1,3 +1,7 @@
+# 2.4.0 (4/2/2017)
+
+- The ESLint peerDependency is now less restrictive
+
 # 2.3.1 (2/3/2017)
 
 - Fix a non-standard space that was breaking in the latest ESLint version
